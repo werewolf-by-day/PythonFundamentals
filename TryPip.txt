@@ -1,0 +1,8 @@
+pip install Django - I learned that pip is not run from the python shell and that you can specify which version of python to install by typing pip install django==1.4.
+pip list - this generates a list of installed packages.  It seems that there are also more options with pip list, letting you filter the results you would get with pip list in different ways. It also appears that the way the list is display is outdatted in favor of the column formatting. I liked that one of the options was to view the list as json formatting.
+pip install Django - I got a message letting me know that Django is already installed and where it is located.
+pip freeze - Pip freeze lists only install packages, by default. It also does so in requirements format, and then generates a requirements file. I'm not too clear on the purpose of this right now, but I'm sure it will make more sense once I start building something.
+	   - after running pip freeze > requirements.txt it generated the requirements.txt file with the installed packages, Django and pytz, listed in the requirements format.
+pip uninstall Django - after running this command, all of the Django files are listed one by one in the terminal. There was then a question to proceed with the uninstall. After hitting y, there was a notification that it was successfully uninstalled.
+pip show Django - gives no response.
+pip search Flask - This generates a list of different flask options to download(?), some of which include other packages such a Django, SQLAlchemy and more.
